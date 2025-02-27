@@ -145,14 +145,17 @@ st.sidebar.info("""
 This application predicts the likelihood of heart disease based on patient medical data using **Machine Learning**.
 
 ### **Model Information**
-- **Algorithm:** Logistic Regression (Best Performing)
+- **Algorithm:** LightGBM
 - **Trained on:** Heart Disease Dataset  
 """)
 
 st.sidebar.header("📊 Model Performance")
 st.sidebar.markdown("""
-- **Algorithm Used:** Logistic Regression
+- **Algorithm Used:** LightGBM
 - **Best Accuracy:** 86.9%
+- **Precision** 89%	
+- **Recall** 93%	
+- **F1 Score** 91%
 - **ROC AUC Score:** 92.5%
 """)
 
