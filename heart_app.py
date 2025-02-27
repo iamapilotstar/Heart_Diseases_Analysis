@@ -12,6 +12,8 @@ st.set_page_config(
     page_icon="❤️",
     layout="wide"
 )
+st.markdown(""" Note: This is a test app, Please dont use for real Diagnosis. Always Consult a doctor at all times.
+""")
 
 # ✅ Load Model and Scaler Efficiently
 @st.cache_data
