@@ -119,7 +119,7 @@ with col1:
             input_data_scaled = scaler.transform(input_features)
             probabilities = model.predict_proba(input_data_scaled)[0]
             
-            outcome = "Likely to Have Heart Disease" if probabilities[1] >= 0.50 else "Unlikely to Have Heart Disease"
+            outcome = "Likely to Have Heart Disease" if probabilities[1] >= 0.47 else "Unlikely to Have Heart Disease"
             
             st.success(f"❤️ Prediction: **{outcome}**")
             st.write(f"### 📊 Probability of Heart Disease: {probabilities[1] * 100:.2f}%")
