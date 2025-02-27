@@ -140,6 +140,21 @@ with col1:
         except Exception as e:
             st.error(f"⚠️ Error in prediction: {e}")
 
+st.sidebar.header("📌 About")
+st.sidebar.info("""
+This application predicts the likelihood of heart disease based on patient medical data using **Machine Learning**.
+
+### **Model Information**
+- **Algorithm:** Logistic Regression (Best Performing)
+- **Trained on:** Heart Disease Dataset  
+""")
+
+st.sidebar.header("📊 Model Performance")
+st.sidebar.markdown("""
+- **Algorithm Used:** Logistic Regression
+- **Best Accuracy:** 86.9%
+- **ROC AUC Score:** 92.5%
+""")
 
 st.subheader("📊 Top Features Impacting Heart Disease Prediction")
 feature_importance_path = "feature_importance.png"
