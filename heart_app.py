@@ -12,8 +12,6 @@ st.set_page_config(
     page_icon="❤️",
     layout="wide"
 )
-st.markdown(""" Note: This is a test app, Please dont use for real Diagnosis. Always Consult a doctor at all times.
-""")
 
 # ✅ Load Model and Scaler Efficiently
 @st.cache_data
@@ -48,6 +46,9 @@ st.title("❤️ Heart Disease Prediction App")
 st.markdown("""
 This app predicts the likelihood of a patient having heart disease based on clinical parameters.
 Simply enter the patient details and get an instant prediction!
+
+Note: This is a test app, Please dont use for real Diagnosis. Always Consult a doctor at all times.
+
 """)
 
 # ✅ Input Form UI
