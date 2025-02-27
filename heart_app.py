@@ -153,9 +153,9 @@ st.sidebar.header("📊 Model Performance")
 st.sidebar.markdown("""
 - **Algorithm Used:** LightGBM
 - **Best Accuracy:** 86.9%
-- **Precision** 89%	
-- **Recall** 93%	
-- **F1 Score** 91%
+- **Precision** 89.2%	
+- **Recall** 93.4%	
+- **F1 Score** 91.3%
 - **ROC AUC Score:** 92.5%
 """)
 
