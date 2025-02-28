@@ -1,7 +1,7 @@
 # ❤️ Heart Disease Prediction App  
 This **Heart Disease Prediction App** uses **Machine Learning** to predict the likelihood of a patient having **heart disease** based on key clinical factors.  
 
-🔗 **Live Demo: **https://heartpredictapp.streamlit.app/**
+🔗 **Live Demo:** **https://heartpredictapp.streamlit.app/**
 
 📊 Algorithm Used: LightGBM
 **Best Accuracy: 86.9%**
