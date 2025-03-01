@@ -49,7 +49,7 @@ col1, col2 = st.columns([2, 1])
 with col1:
     st.subheader("Patient Information")
     
-    age = st.number_input("Age (years)", min_value=20, max_value=80, value=50)
+    age = st.number_input("Age (years)", min_value=1, max_value=100, value=50)
     sex = st.radio("Sex", ["Male", "Female"])
     resting_bp = st.slider("Resting Blood Pressure (mmHg)", 80, 180, 120)
     chest_pain_type = st.selectbox("Chest Pain Type", ["Typical Angina", "Atypical Angina", "Non-Anginal Pain", "Asymptomatic"])
