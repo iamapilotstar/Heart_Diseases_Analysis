@@ -41,7 +41,7 @@ if model is None or scaler is None:
 st.title("❤️ Heart Disease Prediction App")
 st.markdown("""
 This app predicts the likelihood of a patient having heart disease based on clinical parameters.
-Simply enter the patient details and get an instant prediction!
+Simply enter the patient medical details and get an instant prediction!
 """)
 
 # ✅ Input Form UI
