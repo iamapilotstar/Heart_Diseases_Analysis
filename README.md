@@ -42,14 +42,14 @@ Using these clinical indicators, the model predicts whether the patient is **lik
 
 ## **🚀 Features**  
 ✔ **User-friendly Streamlit Interface**  
-✔ **Real-time Prediction** using a trained Logistic Regression Model  
+✔ **Real-time Prediction** using a trained LightGBM
 ✔ **Feature Importance Visualization** for better understanding  
 ✔ **Interactive Sliders & Inputs** for easy data entry  
 
 ---
 
 ## **🛠️ Tech Stack**  
-- **Machine Learning:** Scikit-Learn (Logistic Regression)  
+- **Machine Learning:** Scikit-Learn 
 - **Web App Framework:** Streamlit  
 - **Data Processing:** Pandas, NumPy, StandardScaler  
 - **Data Visualization:** Plotly, Matplotlib, Seaborn  
